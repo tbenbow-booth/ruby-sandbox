@@ -1,10 +1,6 @@
-# my comment 
-require "active_support/all"
-require "./goodbye.rb"
 
-my_string = "Hello World!"
-pp my_string
+pp "What's your name?"
 
-x = 3
+their_name = gets.chomp
 
-pp x.ordinalize 
+pp "Hello, " + their_name + "!"
